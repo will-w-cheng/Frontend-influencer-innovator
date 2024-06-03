@@ -1,6 +1,45 @@
+This project is a web-based game inspired by GeoGuessr, where players are shown images and must identify what or where the image represents. The game challenges users' knowledge and observational skills across various categories such as landmarks, nature, objects, and more.
+
+Displays random images from various categories.
+Users guess the identity or location of the image.
+Provides hints to assist players.
+Tracks user scores and progress.
+Integrates with a backend API for score persistence
+
+Each round, an image is displayed from one of the predefined categories.
+Players must type their guess about what the image represents or where it is located.
+Players can use hints, but using hints may reduce the potential score for that round.
+The game continues until the player decides to stop or completes all available rounds.
+
+Points are awarded based on the accuracy of the guess.
+A correct guess without hints yields the highest points.
+Using hints reduces the points awarded.
+The final score is tallied and displayed at the end of the game.
+
+The game integrates with a backend API to persist player scores and fetch images dynamically.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Flask Portfolio Starter
 
-I'm sad
+
 
 Runtime link: <https://flask.nighthawkcodingsociety.com/>
 GitHub link: https://github.com/nighthawkcoders/flask_portfolio
